@@ -15,7 +15,10 @@ function createWindow () {
     console.log(process.versions.electron);
     console.log(process.versions.modules);
 
+var nbind = require('nbind');
+var lib = nbind.init().lib;
 
+lib.Mytest.sayHello();
 
   // 加载index.html文件
   win.loadFile('index.html')
