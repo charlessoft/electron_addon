@@ -9,3 +9,5 @@ run:
 rebuild:
 	./node_modules/.bin/electron-rebuild
 
+
+# version:10.22.1
