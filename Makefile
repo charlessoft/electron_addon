@@ -1,9 +1,8 @@
+install:
+	npm i
 build_test:
-	npm run -- autogypi \
-  --init-gyp \
-  -p nbind -s hello.cc
-	npm run -- node-gyp \
-  configure build
+	npm run -- autogypi --init-gyp -p nbind -s hello.cc
+	npm run -- node-gyp configure build
 
 run:
 	npm start
