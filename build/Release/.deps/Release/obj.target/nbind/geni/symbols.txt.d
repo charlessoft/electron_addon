@@ -1,0 +1,1 @@
+cmd_Release/obj.target/nbind/geni/symbols.txt := ln -f "../node_modules/nbind/src/symbols.txt" "Release/obj.target/nbind/geni/symbols.txt" 2>/dev/null || (rm -rf "Release/obj.target/nbind/geni/symbols.txt" && cp -af "../node_modules/nbind/src/symbols.txt" "Release/obj.target/nbind/geni/symbols.txt")
