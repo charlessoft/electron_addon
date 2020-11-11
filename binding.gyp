@@ -5,7 +5,8 @@
 				"auto.gypi"
 			],
 			"sources": [
-				"hello.cc"
+				"hello.cc",
+				"api.cpp"
 			]
 		}
 	],
