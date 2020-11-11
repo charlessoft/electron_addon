@@ -1,7 +1,8 @@
 install:
 	npm i
 build_test:
-	npm run -- autogypi --init-gyp -p nbind -s hello.cc -s api.cpp
+	npm run -- autogypi --init-gyp -p nbind -s nativate/src/hello.cc \
+		-s nativate/src/api.cpp
 	npm run -- node-gyp configure build
 
 run:

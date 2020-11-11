@@ -1,4 +1,5 @@
 var nbind = require('nbind');
 var lib = nbind.init().lib;
 
-lib.Mytest.sayHello();
+var mydemo = new lib.Mytest();
+mydemo.sayHello();

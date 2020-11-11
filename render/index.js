@@ -5,8 +5,9 @@ window.onload=function(){
 		
 	var nbind = require('nbind');
 	var lib = nbind.init().lib;
+	var mydemo = new lib.Mytest();
 
-	var g=lib.Mytest.gaga();
+	var g=mydemo.gaga();
 	alert(g);
 	}
 }

@@ -17,8 +17,9 @@ function createWindow () {
 
 var nbind = require('nbind');
 var lib = nbind.init().lib;
+var mydemo = new lib.Mytest();
 
-lib.Mytest.sayHello();
+mydemo.sayHello();
 
   // 加载index.html文件
   win.loadFile('index.html')

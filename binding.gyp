@@ -5,8 +5,8 @@
 				"auto.gypi"
 			],
 			"sources": [
-				"hello.cc",
-				"api.cpp"
+				"nativate/src/hello.cc",
+				"nativate/src/api.cpp"
 			]
 		}
 	],
